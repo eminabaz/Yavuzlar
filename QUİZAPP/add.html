@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Soru Ekleme Paneli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+ <div class="appContainer"> 
+    <h1>Soru Ekleme Formu</h1>
+  <div class="formContainer">
+      <form id="sorueklemeformu">
+      <h2>Soru içeriğini Girin. </h2>
+      <input type="text" id="soruİcerik">
+      <h2>Soru Zorluğunu Seçin.</h2>
+      <select name="zorluklar" id="zorlukSecim">
+        <option value="default" disabled selected>Seçim Yapın</option>
+        <option value="Kolay">Kolay</option>
+        <option value="Orta">Orta</option>
+        <option value="Zor">Zor</option>
+
+
+
+
+
+      </select>
+      <h2>Siklari Girin.</h2>
+      <h5>Format: soru şıkkı-(true/false)</h5>
+      <h5>Örnek: Yavuzlar-true</h5>
+      <input class="siklar" type="text" id="00">
+      <input class="siklar" type="text" id="01">
+      <input class="siklar" type="text" id="02">
+      <input class="siklar" type="text" id="03">
+
+      <br>
+      <button type="button" style="margin-top: 20px;" onclick="soruEkle()">Gönder</button>
+
+
+
+
+    </form>
+  </div>
+ </div>
+
+
+
+
+
+
+
+
+
+    <script src="add_script.js"></script>
+    <script src="sorular.js"></script>
+    <script src="edit_scripts.js"></script>
+</body>
+
+
+
+</html>

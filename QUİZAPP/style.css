@@ -1,0 +1,285 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.headcontainer{
+    margin: 0;
+    height: 56px;
+    width: 100%;
+    background-color: #7babab;
+}
+
+.longheader{
+      margin: 0 auto;
+      background-color: #7babab;
+      height: 56px;
+      width: 80%;
+      text-align: center;
+}
+
+.userlogin{
+    display: inline-block;
+    padding: 0;
+}
+
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color:black;
+
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: center;
+}
+
+.discontainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    height: 92%;
+    background-color: whitesmoke;
+}
+
+.sorucontainer{
+    color: black;
+    height: 600px;
+    width:50%;
+    background-color: #7babab;
+    border: 2px solid #7babab;
+    border-radius: 10px;
+
+}
+
+.sorucontainer h1 {
+     font-weight: 10px;
+     padding: 4px 0 30px;
+     border-bottom: 1px solid black;
+
+}
+
+.btn {
+     background-color: #fff;
+     color: #222;
+     font-size: 15px;
+     font-weight:50;
+     height:50px;
+     width:80%;
+     margin-bottom:20px;
+     border: 1px solid;
+     border-radius: 5px;
+     cursor:pointer;
+     text-align: left;
+
+}
+
+.btn:hover:not([disabled]){
+    background-color: #222;
+    color: #fff;
+
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+.cevapbutonlari h2 {
+
+     margin-bottom:30px;
+     font-size: 18px;
+
+}
+
+.cevapbutonlari h3 {
+    margin:50px 0 50px;
+}
+
+#next-btn {
+    height:30px;
+    width: 31%;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+
+.correct{
+    background-color: greenyellow;
+
+}
+
+.incorrect{
+    background-color: red;
+}
+
+
+.app{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    height: 400px;
+    width:70%;
+    background-color:#7babab;
+    border: 2px solid #7babab;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.container h1{
+    color: black;
+    padding-bottom: 50px;
+    border-bottom: 2px solid;
+}
+
+.container h2 { 
+
+    
+}
+.container button{
+    margin-top: 50px;
+    height: 58px;
+    width: 70%;
+    border: 3px solid;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.container button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.manageApp{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.soruContainer{
+    background-color: #7babab;
+    height: 370px;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid;
+    border-radius: 8px;
+    margin-bottom: 25px;
+
+}
+
+.soruContainer h2{
+    font-size: 25px;
+}
+
+.soruContainer h3{
+
+    padding-top: 20px;
+    border-bottom: 3px solid;
+}
+
+#secenek{
+    height: 40px;
+    width: 70%;
+    margin-bottom: 10px;
+    
+}
+
+.searchBox input{
+
+    height:29px;
+    width:40%;
+    margin-bottom: 30px;
+    border: 2px solid;
+    border-radius: 8px;
+
+
+
+}
+.searchBox button{
+
+    height:33px;
+    width:8%;
+    margin-bottom: 30px;
+    border: 2px solid;
+    border-radius: 8px;
+
+
+
+}
+
+
+.searchBox button:hover{
+    cursor: pointer;
+    background-color: #222;
+    color: #fff;
+}
+
+#manageAppButton {
+    height:25px;
+    width:12%;
+    margin-bottom: 15px;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+#manageAppButton:hover {
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.appContainer{
+    height:100%;
+    width:100%;
+    text-align: center;
+}
+
+.appContainer h1 {
+    margin-bottom: 50px;
+    color:#7babab;
+
+}
+
+.formContainer{
+    margin-left:auto;
+    margin-right: auto;
+    height:700px;
+}
+.formContainer {
+    width:50%;
+    height:83%;
+    background-color: #7babab;
+}
+
+#soruİcerik{
+    height:50px;
+    width:70%;
+}
+
+.siklar{
+    height: 28px;
+    width:70%;
+    margin-bottom:18px;
+    
+}
+

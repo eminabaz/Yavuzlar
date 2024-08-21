@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>Soru Yönetim Paneli</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+<div class="manageApp" id="manage">
+<h1>Soru Yönetim Paneli</h1>
+<button id="manageAppButton" onclick="reload()">Yenile</button>
+<button id="manageAppButton" onclick="location.href='play.html'">Soru Getir</button>
+<div class="searchBox">
+    <input type="text" id="search" placeholder="Soru İçeriğini Yazın..." onkeypress="aramaYap()">
+    <button onclick="aramaYap()">Ara</button>
+    <br>
+    <button onclick="window.location.href = 'add.html'">Soru Ekle</button>
+</div>
+<div class="sorularContainer" id="sorucont">
+<div class="soruContainer">
+
+   <h2 id="soruİcerik">soru icerik</h2>
+   <h3 id="soruZorluk">soru zorluk</h3>
+   <div class="soruSiklar">
+
+   </div>
+
+</div>
+</div>
+
+</div>
+
+<script src="sorular.js"></script>
+<script src="edit_scripts.js"></script>
+</body>
+
+</html>
