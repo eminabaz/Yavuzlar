@@ -1,0 +1,3 @@
+module login-app
+
+go 1.23.2

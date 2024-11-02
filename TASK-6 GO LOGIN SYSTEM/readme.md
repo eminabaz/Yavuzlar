@@ -1,0 +1,1 @@
+Programı Çalıştırmak execute.bat dosyasını çalıştırın.
